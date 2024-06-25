@@ -1,0 +1,21 @@
+body {
+  background-image: url("images/benjamin-wong-WoViiJWKLik-unsplash.jpg");
+  background-repeat: repeat-y;
+}
+h2, h3 {
+	background-color: #e5c208;
+	text-align: center;
+}
+img {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+}
+tr,td {
+	spacing: 0px;
+	background-color: #e5c208;
+}
+video {
+	display: block;
+	margin: auto;
+}

@@ -1,0 +1,86 @@
+<html>
+	<head>
+		<title>50 State Karaoke Tour</title>
+		<script>
+			function SameTab() {
+				var state = document.getElementById("testUrl").state.value;
+				window.open(state,"_self");
+			}
+		</script>
+
+	</head>
+	<body>
+		<center>
+			<img src="../50StatePassionsTourTheme.jpg">
+			<h2>50 State Karaoke Tour  | Total states: 17</h2>
+			<hr>
+			<img align="center" src="images/US_map.jpg" alt="Workplace" usemap="#workmap" width="910" height="559">
+
+			<map name="workmap">
+			<!-- California -->
+			  <area shape="circle" coords="113,289,5" alt="Los Angeles" href="laCA_karaoke.html">
+			<!-- Colorado -->
+			  <area shape="circle" coords="337,227,5" alt="Denver" href="DenCO_karaoke.html">
+			<!-- Illinois -->
+			  <area shape="circle" coords="574,183,5" alt="Chicago" href="ChiIL_karaoke.html">
+			  <area shape="circle" coords="549,208,5" alt="Peoria" href="peoriaIL_karaoke.html">
+			  <area shape="circle" coords="560,211,5" alt="Blm-Nml" href="BNIL_karaoke.html">
+			  <area shape="circle" coords="570,218,5" alt="Champaign" href="CUIL_karaoke.html">
+			<!-- Georgia -->
+			  <area shape="circle" coords="643,328,5" alt="Atlanta" href="ATLGA_karaoke.html">
+			<!-- Hawaii -->
+			  <area shape="circle" coords="283,455,5" alt="Hawaii" href="HonHI_karaoke.html">
+			<!-- Iowa -->
+			  <area shape="circle" coords="536,180,5" alt="Dubuque" href="DubIA_karaoke.html">
+			<!-- Kentucky -->
+			  <area shape="circle" coords="611,249,5" alt="Louisville" href="LouKY_karaoke.html">
+			<!-- Louisiania -->
+			  <area shape="circle" coords="564,411,5" alt="New Orleans" href="nola_karaoke.html">
+			<!-- Minnesota -->
+			  <area shape="circle" coords="495,129,5" alt="Minneapolis" href="MinnMN_karaoke.html">
+			<!-- Missouri -->
+			  <area shape="circle" coords="485,244,5" alt="Kansas City" href="KCMO_karaoke.html">
+			<!-- Nevada -->
+			  <area shape="circle" coords="172,260,5" alt="Las Vegas" href="LVNV_karaoke.html">
+			<!-- New York -->
+			  <area shape="circle" coords="771,173,5" alt="NYC" href="NYC_karaoke.html">
+			<!-- Ohio -->
+			  <area shape="circle" coords="633,236,5" alt="Cinncinati" href="CinOH_karaoke.html">
+			<!-- Oklahoma -->
+			  <area shape="circle" coords="462,298,5" alt="Tulsa" href="TulsaOK_karaoke.html">
+			<!-- S Carolina -->
+			  <area shape="circle" coords="727,323,5" alt="Myrtle Beach" href="MBSC_karaoke.html">
+			<!-- Tennessee -->
+			  <area shape="circle" coords="557,308,5" alt="Memphis" href="MemTN_karaoke.html">
+			<!-- Washington DC -->
+			  <area shape="circle" coords="744,227,5" alt="DC" href="DC_karaoke.html">
+			</map>
+			<hr>
+			<form id="testUrl">
+				<select name="state" id="state">
+					<option value="laCA_karaoke.html">California</option>
+					<option value="DenCO_karaoke.html">Colorado</option>
+					<option value="ATLGA_karaoke.html">Georgia</option>
+					<option value="HonHI_karaoke.html">Hawaii</option>
+					<option value="BNIL_karaoke.html">IL - Blo-No</option>
+					<option value="CUIL_karaoke.html">IL - Champaign</option>
+					<option value="ChiIL_karaoke.html">IL - Chicago</option>
+					<option value="peoriaIL_karaoke.html">IL - Peoria</option>
+					<option value="DubIA_karaoke.html">Iowa</option>
+					<option value="LouKY_karaoke.html">Kentucky</option>
+					<option value="nola_karaoke.html">Louisiania</option>
+					<option value="MinnMN_karaoke.html">Minnesota</option>
+					<option value="KCMO_karaoke.html">Missouri</option>
+					<option value="LVNV_karaoke.html">Nevada</option>
+					<option value="NYC_karaoke.html">New York</option>
+					<option value="CinOH_karaoke.html">Ohio</option>
+					<option value="TulsaOK_karaoke.html">Oklahoma</option>
+					<option value="MBSC_karaoke.html">S Carolina</option>
+					<option value="MemTN_karaoke.html">Tennessee</option>
+					<option value="DC_karaoke.html">Washington DC</option>
+				 </select>
+				<input type="button" value="Submit" onclick="SameTab()">
+			</form> 
+		</center>
+	</body>
+</html>
