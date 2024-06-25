@@ -1,0 +1,76 @@
+<html>
+	<head>
+		<title>50 State Inline Skating Tour</title>
+		<link rel="stylesheet" href="inlineskating.css">
+		<style>
+			h4 {
+				text-align: center;
+			}
+		</style>
+		<script>
+			function SameTab() {
+				var state = document.getElementById("testUrl").state.value;
+				window.open(state,"_self");
+			}
+		</script>
+	</head>
+	<body>
+		<center>
+			<a href="../index.html"><img src="../50StatePassionsTourTheme.jpg"></a>
+			<h2>50 State Inline Skating Tour   | States Covered: 8<br/>Click on a red dot to explore the inline skating adventures</h2>
+			<img align="center" src="images/US-map-western-states.jpg" alt="Workplace" usemap="#workmap-west">
+
+			<map name="workmap-west">
+			<!-- California 
+			  <area shape="circle" coords="105,385,19" alt="Los Angeles" href="laCA_inlineskate.html">
+			     Colorado 
+			  <area shape="circle" coords="408,264,19" alt="Denver" href="DenCO_inlineskate.html">
+			-->
+			<!-- Hawaii -->
+			  <area shape="circle" coords="304,567,19" alt="Hawaii" href="HonHI_inlineskate.html">
+			<!-- Nevada 
+			  <area shape="circle" coords="180,342,19" alt="Las Vegas" href="LVNV_inlineskate.html">
+			<!-- Oklahoma 
+			  <area shape="circle" coords="582,353,19" alt="Tulsa" href="TulsaOK_inlineskate.html">
+			 -->
+			</map>
+			<hr>
+			<form id="testUrl">
+				<select name="state" id="state">
+					<option value="DC_inlineskate.html">DC</option>
+					<option value="ATLGA_inlineskate.html">Georgia</option>
+					<option value="HonHI_inlineskate.html">Hawaii</option>
+					<option value="BNIL_inlineskate.html">IL - Blo-No</option>
+					<option value="ChiIL_inlineskate.html">IL - Chicago</option>
+					<option value="peoriaIL_inlineskate.html">IL - Peoria</option>
+					<option value="LouKY_inlineskate.html">Kentucky</option>
+					<option value="nola_inlineskate.html">Louisiania</option>
+					<option value="KCMO_inlineskate.html">Missouri</option>
+					<option value="CaliMD_inlineskate.html">Maryland</option>
+				 </select>
+				<input type="button" value="Submit" onclick="SameTab()">
+			</form> 
+			<hr>
+			<img align="center" src="images/US-map-non-western-states.jpg" alt="Workplace" usemap="#workmap-east">
+
+			<map name="workmap-east">
+			<!-- Illinois -->
+				<area shape="circle" coords="215,167,19" alt="Chicago" href="ChiIL_inlineskate.html">-->
+			<!--	<area shape="circle" coords="165,202,19" alt="Peoria" href="peoriaIL_inlineskate.html"> -->
+				<area shape="circle" coords="178,213,19" alt="Blm-Nml" href="BNIL_inlineskate.html">
+			<!-- Georgia -->
+				<area shape="circle" coords="340,369,19" alt="Atlanta" href="ATLGA_inlineskate.html">
+			<!-- Kentucky -->
+				<area shape="circle" coords="259,266,19" alt="Louisville" href="LouKY_inlineskate.html">
+			<!-- Louisiana -->
+				<area shape="circle" coords="170,578,19" alt="New Orleans" href="nola_inlineskate.html">
+			<!-- Maryland -->
+				<area shape="circle" coords="468,213,15" alt="CaliMD" href="CaliMD_inlineskate.html">
+			<!-- Missouri -->
+				<area shape="circle" coords="156,261,19" alt="St. Louis" href="STLMO_inlineskate.html">
+			<!-- Washington DC -->
+				<area shape="circle" coords="457,196,19" alt="DC" href="WashDC_inlineskate.html">
+			</map>
+		</center>
+	</body>
+</html>

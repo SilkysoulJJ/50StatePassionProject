@@ -1,0 +1,20 @@
+body {
+  background-image: url("images/sean-sinclair-C_NJKfnTR5A-unsplash.jpg");
+}
+h2, h3 {
+	background-color: #e5c208;
+	text-align: center;
+}
+img {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+}
+tr,td {
+	spacing: 0px;
+	background-color: #e5c208;
+}
+video {
+	display: block;
+	margin: auto;
+}
